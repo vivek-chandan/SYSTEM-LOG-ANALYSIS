@@ -1,0 +1,70 @@
+2024-01-15 00:00:00 INFO: System boot completed in 45 seconds
+2024-01-15 00:00:05 INFO: Kernel version: 5.15.0-91-generic
+2024-01-15 00:00:10 INFO: Network interfaces initialized
+2024-01-15 01:00:00 INFO: Hourly system check - all systems operational
+2024-01-15 01:30:00 WARNING: Disk usage on /var partition at 85%
+2024-01-15 01:30:05 WARNING: Free space: 15GB of 100GB
+2024-01-15 02:00:00 ERROR: CPU temperature exceeded threshold: 85°C (max: 80°C)
+2024-01-15 02:00:05 WARNING: CPU clock throttled due to thermal limits
+2024-01-15 02:00:10 WARNING: Fan speed increased to 100% (4500 RPM)
+2024-01-15 02:15:00 INFO: CPU temperature normalized: 72°C
+2024-01-15 02:15:05 INFO: CPU clock speed restored to normal
+2024-01-15 03:00:00 ERROR: Out of memory - OOM killer invoked
+2024-01-15 03:00:01 CRITICAL: Process 'chrome' (PID 12345) killed by OOM killer
+2024-01-15 03:00:05 WARNING: System memory critically low: 50MB free of 8GB
+2024-01-15 03:00:10 INFO: Memory freed by OOM killer: 2.5GB
+2024-01-15 03:15:00 INFO: Memory usage normalized: 60% (4.8GB/8GB)
+2024-01-15 04:00:00 WARNING: Swap usage at 90% capacity (3.6GB/4GB)
+2024-01-15 04:00:05 WARNING: System performance may be degraded
+2024-01-15 04:15:00 INFO: Swap usage reduced: 50% (2GB/4GB)
+2024-01-15 05:00:00 ERROR: Disk I/O error on /dev/sda1
+2024-01-15 05:00:05 ERROR: Read error at sector 12345678
+2024-01-15 05:00:10 WARNING: SMART monitoring detected potential disk failure
+2024-01-15 05:00:15 CRITICAL: Recommend immediate disk backup and replacement
+2024-01-15 05:15:00 INFO: Disk scan completed - 5 bad sectors found and remapped
+2024-01-15 06:00:00 ERROR: Network interface eth0 link down
+2024-01-15 06:00:05 WARNING: Network connectivity lost
+2024-01-15 06:00:10 INFO: Attempting to bring up network interface
+2024-01-15 06:00:30 INFO: Network interface eth0 link up
+2024-01-15 06:00:35 INFO: Network connectivity restored
+2024-01-15 07:00:00 WARNING: System load average high: 8.5 (CPUs: 4)
+2024-01-15 07:00:05 WARNING: Multiple processes competing for CPU
+2024-01-15 07:15:00 INFO: System load normalized: 2.1
+2024-01-15 08:00:00 ERROR: ACPI BIOS Error (bug): Could not resolve symbol [\_SB.PCI0.SAT0.SPT0._GTF.DSSP]
+2024-01-15 08:00:05 WARNING: ACPI errors may affect power management
+2024-01-15 09:00:00 ERROR: EXT4-fs error on /dev/sda2: filesystem corruption detected
+2024-01-15 09:00:05 CRITICAL: Filesystem mounted as read-only to prevent further damage
+2024-01-15 09:00:10 WARNING: Fsck required on next boot
+2024-01-15 09:30:00 INFO: System scheduled for maintenance reboot at 02:00 AM
+2024-01-15 10:00:00 WARNING: Battery level low: 15%
+2024-01-15 10:00:05 INFO: System on AC power - battery charging
+2024-01-15 11:00:00 INFO: All system checks passed
+2024-01-15 12:00:00 ERROR: Failed to mount NFS share: 192.168.1.100:/exports/data
+2024-01-15 12:00:05 ERROR: Connection timeout to NFS server
+2024-01-15 12:00:10 WARNING: NFS mount failed - using local storage
+2024-01-15 13:00:00 WARNING: IPv6 router advertisement received from unknown source
+2024-01-15 13:00:05 WARNING: Possible network misconfiguration or security issue
+2024-01-15 14:00:00 ERROR: Docker daemon failed to start container 'webapp-prod'
+2024-01-15 14:00:05 ERROR: Error response from daemon: Cannot start container
+2024-01-15 14:00:10 WARNING: Container restart policy: retry 3 times
+2024-01-15 14:00:30 INFO: Container 'webapp-prod' started successfully on retry 2
+2024-01-15 15:00:00 WARNING: Firewall rule denied connection from 203.0.113.50 to port 22
+2024-01-15 15:00:05 WARNING: Multiple SSH connection attempts from suspicious IP
+2024-01-15 15:00:10 INFO: IP 203.0.113.50 added to blocklist
+2024-01-15 16:00:00 ERROR: Systemd service 'postgresql.service' failed to start
+2024-01-15 16:00:05 ERROR: Port 5432 already in use
+2024-01-15 16:00:10 WARNING: Conflicting PostgreSQL instance detected
+2024-01-15 16:00:30 INFO: Conflicting instance terminated - service started
+2024-01-15 17:00:00 INFO: System uptime: 17 hours
+2024-01-15 18:00:00 WARNING: Time sync failed - NTP server unreachable
+2024-01-15 18:00:05 WARNING: System clock may drift
+2024-01-15 18:15:00 INFO: Time synchronized with fallback NTP server
+2024-01-15 19:00:00 ERROR: USB device malfunction on port 2
+2024-01-15 19:00:05 WARNING: Device disconnected due to errors
+2024-01-15 20:00:00 INFO: Automated security updates available
+2024-01-15 20:00:05 INFO: Updates scheduled for installation at 03:00 AM
+2024-01-15 21:00:00 WARNING: Certificate for *.example.com expires in 7 days
+2024-01-15 21:00:05 INFO: Certificate renewal process initiated
+2024-01-15 22:00:00 INFO: System health monitoring - all services running
+2024-01-15 23:00:00 INFO: Daily backup completed successfully
+2024-01-15 23:59:59 INFO: End of day - system statistics generated
